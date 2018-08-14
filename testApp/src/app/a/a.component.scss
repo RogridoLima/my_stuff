@@ -1,0 +1,27 @@
+.navbar {
+  background: #fff;
+}
+
+.container-fluid {
+  height: 100vh;
+  background: #ebf2ff;
+}
+
+.page {
+  height: 90%;
+}
+
+canvas {
+  background: #fff;
+  border: rgba(0, 0, 0, 0.400) 1px solid;
+  margin-top: 40px;
+  height: 520px;
+  width: 1000px;
+}
+
+.mouse-pos {
+  position: absolute;
+  font-size: 20px;
+  font-family: 'Fira Code', sans-serif;
+  right: 0px;
+}

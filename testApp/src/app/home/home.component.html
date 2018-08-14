@@ -1,0 +1,9 @@
+<div class="base" id="container">
+  <div class="info">
+    {{ 'x: ' + mousePos.x }}
+    <br> {{ 'y: ' + mousePos.y }}
+    <br> {{ bulletMovement }}
+  </div>
+  <div id="mouseElement"></div>
+  <div id="enemies" *ngFor="let item of enemies" [ngStyle]="{'background': item.color}" >item.name</div>
+</div>

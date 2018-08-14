@@ -1,0 +1,53 @@
+.base {
+  height: 100vh;
+}
+
+button {
+  margin: auto;
+  display: block;
+}
+
+.click-me button {
+  background: linear-gradient(blue, green);
+  border: none;
+  border-radius: 5px;
+  border: 1px dotted #58515b;
+  color: rgb(213, 255, 60);
+  animation: que infinite 3s;
+}
+
+.stop-this-mess button {
+  background: linear-gradient(blue, white);
+  border: none;
+  border-radius: 5px;
+  border: 5px dashed #58515b;
+  color: black;
+}
+
+#clicaaquipo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+@keyframes que {
+  0% {transform: scale(1)}
+  50% {transform: scale(1.2)}
+  100% {transform: scale(1)}
+}
+
+@keyframes naopara {
+  0% {transform: scale(1); transform: rotate(0deg)}
+  50% {transform: scale(1.2); transform: rotate(180deg)}
+  100% {transform: scale(1); transform: rotate(0deg)}
+}
+
+@keyframes egolpora {
+  0% {background: white; transform: rotateZ(0deg)}
+  10% {background: linear-gradient(green, blue, yellow)}
+  20% {background: linear-gradient( blue,green, yellow)}
+  30% {background: linear-gradient( blue,yellow, green)}
+  40% {transform: rotateY(360deg)}
+  50% {transform: rotateY(0deg)}
+  100% {transform: rotateZ(360deg)}
+}
